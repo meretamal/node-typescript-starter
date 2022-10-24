@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:meretamal/node-typescript-starter.git",
   "author": "meretamal <meretamal@uc.cl>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
 }
