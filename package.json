@@ -8,6 +8,7 @@
   "scripts": {
     "start": "ts-node ./src/index.ts",
     "start:dev": "nodemon ./src/index.ts",
+    "start:prod": "node ./dist/index.js",
     "build": "tsc"
   },
   "devDependencies": {
