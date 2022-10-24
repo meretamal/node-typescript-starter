@@ -5,6 +5,9 @@
   "repository": "git@github.com:meretamal/node-typescript-starter.git",
   "author": "meretamal <meretamal@uc.cl>",
   "license": "MIT",
+  "scripts": {
+    "start": "ts-node ./src/index.ts"
+  },
   "devDependencies": {
     "ts-node": "^10.9.1",
     "typescript": "^4.8.4"
