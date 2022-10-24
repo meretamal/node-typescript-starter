@@ -1,0 +1,8 @@
+{
+  "name": "node-typescript-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:meretamal/node-typescript-starter.git",
+  "author": "meretamal <meretamal@uc.cl>",
+  "license": "MIT"
+}
