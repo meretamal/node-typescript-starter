@@ -6,7 +6,8 @@
   "author": "meretamal <meretamal@uc.cl>",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node ./src/index.ts"
+    "start": "ts-node ./src/index.ts",
+    "start:dev": "nodemon ./src/index.ts"
   },
   "devDependencies": {
     "nodemon": "^2.0.20",
