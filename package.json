@@ -9,7 +9,9 @@
     "start": "ts-node ./src/index.ts",
     "start:dev": "nodemon ./src/index.ts",
     "start:prod": "node ./dist/index.js",
-    "build": "tsc"
+    "build": "tsc",
+    "lint": "eslint --ext .ts src",
+    "lint:fix": "eslint --ext .ts src --fix"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.40.1",
