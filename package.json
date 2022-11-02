@@ -9,7 +9,7 @@
     "start": "ts-node ./src/index.ts",
     "start:dev": "nodemon ./src/index.ts",
     "start:prod": "node ./dist/index.js",
-    "build": "tsc && tsc-alias",
+    "build": "tsc --project tsconfig.build.json && tsc-alias",
     "prebuild": "yarn clean",
     "clean": "rimraf ./dist",
     "lint": "eslint --ext .ts src",
