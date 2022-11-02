@@ -13,7 +13,8 @@
     "prebuild": "yarn clean",
     "clean": "rimraf ./dist",
     "lint": "eslint --ext .ts src",
-    "lint:fix": "eslint --ext .ts src --fix"
+    "lint:fix": "eslint --ext .ts src --fix",
+    "test": "jest"
   },
   "devDependencies": {
     "@types/jest": "^29.2.1",
